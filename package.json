@@ -17,7 +17,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "grunt build",
+    "build": "node init && grunt build",
     "test": "grunt default"
   },
   "main": "index.js",
